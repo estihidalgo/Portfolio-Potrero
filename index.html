@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@300&family=Anek+Tamil:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/style.css">
+    <script src="https://kit.fontawesome.com/5bf2f76c73.js" crossorigin="anonymous"></script>
+    <title>Esteban Hidalgo - Portfolio</title>
+        <meta charset="UTF-8">
+</head>
+<body>
+
+    <!--INICIO-->
+
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>//Esteban//</h1>
+                    <h1></h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a> </li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a> </li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a> </li>
+                        </ul>
+                    </nav>
+
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <div class="redes">
+                        <a href="#"> <i class="fa-brands fa-twitter"></i> Twitter</a>
+                        <a href="#"> <i class="fa-brands fa-github"></i> Github</a>
+                        <a href="#"> <i class="fa-brands fa-linkedin"></i> Linkedin</a>
+                    </div>
+
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy Esteban Hidalgo,<br> Desarrolador Front-End</h2>
+                <a href="#sobremi"> <i class="fa-solid fa-circle-arrow-down"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--SOBRE MI-->
+
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="public/img/avatar.png" alt="foto del desarrollador">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion"> Sobre Mi</p>
+            <h2>Hola, soy <span>Esteban Hidalgo</span></h2>
+            <h3>Desarrolador Front-End</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ab ratione iure, mollitia ipsam odio maiores dolorem sed, labore molestias, nobis eos maxime deserunt. Quod assumenda eligendi eius a tempore!</p> <br> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A dolor facere dolore sint tempore nemo quibusdam quasi. Beatae odio, eum, quas placeat est consectetur molestias veritatis nobis hic quibusdam voluptatum.</p>
+        </div>
+    </section>
+
+    <!--CONTACTO-->
+
+    <section id="contacto">
+        <h3 class="titulo-seccion"> Contactame</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila-mitad">
+                    <input type="text" placeholder="Nombre" class="input-mitad" required>
+                    <input type="email" placeholder="Email" class="input-mitad" required>
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Asunto" class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje" class="input-full" required></textarea>
+                </div>
+
+                <input type="submit" value="Enviar" class="boton-enviar">
+            </form>
+        </div>
+    </section>   
+
+    <!--FOOTER-->
+    <footer>
+        <p>© ESTEBAN HIDALGO - 2022</p>
+        <div class="redes">
+            <a href="#"> <i class="fa-brands fa-twitter"></i> Twitter</a>
+            <a href="#"> <i class="fa-brands fa-github"></i> Github</a>
+            <a href="#"> <i class="fa-brands fa-linkedin"></i> Linkedin</a>
+        </div>
+    </footer>
+
+    <script src="public/js/main.js"></script>
+
+</body>
+</html>
